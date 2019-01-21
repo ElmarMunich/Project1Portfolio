@@ -1,16 +1,17 @@
 /* Font */
 html{
-  font-family: 'Arima Madurai', cursive;
+  font-family: 'Montserrat Alternates', sans-serif;
 }
 /* Header */
 header{
   background-color: #bebebe;
+  border: 3px solid #7d97ad;
 }
 .logo{
   max-width: 20%;
   max-height: 50px;
   float:left;
-  margin-left: 50px;
+  margin: 30px 0 0 50px;
 }
 .name{
 text-align: right;
@@ -23,7 +24,7 @@ main{
   padding: 5px, 0px, 5px, 0px;
 }
 main img{
-  box-shadow: 5px 5px 10px #000000;
+  box-shadow: 5px 5px 15px #000000;
   padding-left: 5px;
 }
 div.mainimage{
@@ -33,7 +34,7 @@ div.mainimage{
 }
 ul.pattern{
   list-style-type: none;
-  padding-left: 10px;
+  padding: 0 10px 0 10px;
 }
 .pattern p{
   height: 45px;
@@ -56,7 +57,7 @@ ul.pattern{
 }
 /* Section MyWork */
 section.mywork{
-  font-family: 'Coiny', cursive;
+  font-family: 'Exo 2', sans-serif;
   margin-top: 20px;
   margin-left: 60px;
   border-top: 2px dashed;
@@ -77,7 +78,7 @@ section.mywork{
   max-height: 150px;
 }
 figcaption p {
-  font-family: 'Arima Madurai', cursive;
+  font-family: 'Montserrat Alternates', sans-serif;
   font-size: 0.25em;
   text-transform: none;
 }
