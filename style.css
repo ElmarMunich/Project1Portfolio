@@ -40,6 +40,30 @@ ul.pattern{
   max-width: 100%;
   float:right;
 }
+/* Section MyWork */
+section.mywork{
+  font-family: 'Coiny', cursive;
+  margin-left: 60px;
+}
+.featured li{
+  list-style-type: none;
+  display: inline-flex;
+}
+.featured figcaption{
+  color: #2d3c49;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  text-align: center;
+}
+.square {
+  max-width: 150px;
+  max-height: 150px;
+}
+figcaption p {
+  font-size: 0.25em;
+  text-transform: none;
+}
 /* Footer */
 footer{
   padding-top: 10px;
