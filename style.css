@@ -1,0 +1,46 @@
+/* Font */
+html{
+  font-family: 'Arima Madurai', cursive;
+}
+/* Header */
+.logo{
+  max-width: 20%;
+  max-height: 50px;
+  float:left;
+  margin-left: 50px;
+}
+.name{
+text-align: right;
+}
+/* Mainimage */
+div.mainimage{
+  padding-top: 50px;
+  display: inline-flex;
+}
+ul.pattern{
+  list-style-type: none;
+  padding-left: 10px;
+}
+.pattern p{
+  height: 45px;
+  width: 45px;
+}
+.color1{
+  background-color: #02b3e4
+}
+.color2{
+  background-color: #2d3c49
+}
+.color3{
+  background-color: #7d97ad
+}
+.mainimage img{
+  height: 400px;
+  /* Ratio will be distorted */
+  max-width: 100%;
+  float:right;
+}
+/* Footer */
+footer{
+  padding-top: 10px;
+}
