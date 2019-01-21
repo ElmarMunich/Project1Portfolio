@@ -3,6 +3,9 @@ html{
   font-family: 'Arima Madurai', cursive;
 }
 /* Header */
+header{
+  background-color: #bebebe;
+}
 .logo{
   max-width: 20%;
   max-height: 50px;
@@ -11,11 +14,22 @@ html{
 }
 .name{
 text-align: right;
+margin-right: 10%;
 }
-/* Mainimage */
+/* Main */
+main{
+  width: 100%;
+  background-color: #efefef;
+  padding: 5px, 0px, 5px, 0px;
+}
+main img{
+  box-shadow: 5px 5px 10px #000000;
+  padding-left: 5px;
+}
 div.mainimage{
   padding-top: 50px;
   display: inline-flex;
+
 }
 ul.pattern{
   list-style-type: none;
@@ -43,7 +57,9 @@ ul.pattern{
 /* Section MyWork */
 section.mywork{
   font-family: 'Coiny', cursive;
+  margin-top: 20px;
   margin-left: 60px;
+  border-top: 2px dashed;
 }
 .featured li{
   list-style-type: none;
@@ -61,10 +77,12 @@ section.mywork{
   max-height: 150px;
 }
 figcaption p {
+  font-family: 'Arima Madurai', cursive;
   font-size: 0.25em;
   text-transform: none;
 }
 /* Footer */
 footer{
-  padding-top: 10px;
+  padding 20px 20px 0px 20px;
+  background-color: #bebebe;
 }
