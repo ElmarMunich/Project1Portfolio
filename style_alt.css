@@ -10,42 +10,6 @@ html{
     margin-left: auto;
   }
 }
-
-.container{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-@media screen and (max-width: 360px) {
-  .box1 {
-    width: 100%;
-    order:1;
-  }
-  .box2 {
-    order:-1;
-  }
-  /* main img{
-    height: 100px;
-  } */
-}
-
-@media screen and (min-widht: 361px, max-width: 600px) {
-  .box1 {
-    width: 50%;
-    order:-1;
-  }
-  .box2 {
-    order:1;
-  }
-  main img {
-      padding-left: 0;
-    }
-    /* width: 50%; */
-  }
-  /* main img{
-    height: 100px;
-  } */
-}
 /* Header */
 header{
   background-color: #bebebe;
@@ -70,17 +34,21 @@ main{
 main img{
   box-shadow: 5px 5px 15px #000000;
   padding-left: 5px;
-  height:300px;
 }
+div.mainimage{
+  padding-top: 50px;
+  display: inline-flex;
 
-
-ul.pattern{
+}
+ul.container{
   list-style-type: none;
   padding: 0 10px 0 10px;
+  display: flex;
+  flex-wrap:wrap;
 }
 li p{
-  height: 60px;
-  width: 60px;
+  height: 45px;
+  width: 45px;
 }
 .color1{
   background-color: #02b3e4
@@ -91,9 +59,11 @@ li p{
 .color3{
   background-color: #7d97ad
 }
-.box2 {
+.mainimage img{
   height: 400px;
+  /* Ratio will be distorted */
   max-width: 100%;
+  float:right;
 }
 /* Section MyWork */
 section.mywork{
