@@ -3,9 +3,9 @@ html{
   font-family: 'Montserrat Alternates', sans-serif;
 }
 /* Breakpoint for big screens */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1000px) {
   body {
-    width: 1200px;
+    width: 1000px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -24,9 +24,6 @@ html{
   .box2 {
     order:-1;
   }
-  /* main img{
-    height: 100px;
-  } */
 }
 
 @media screen and (min-widht: 361px, max-width: 600px) {
@@ -40,11 +37,6 @@ html{
   main img {
       padding-left: 0;
     }
-    /* width: 50%; */
-  }
-  /* main img{
-    height: 100px;
-  } */
 }
 /* Header */
 header{
@@ -83,13 +75,13 @@ li p{
   width: 60px;
 }
 .color1{
-  background-color: #02b3e4
+  background-color: #02b3e4;
 }
 .color2{
-  background-color: #2d3c49
+  background-color: #2d3c49;
 }
 .color3{
-  background-color: #7d97ad
+  background-color: #7d97ad;
 }
 .box2 {
   height: 400px;
