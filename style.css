@@ -26,18 +26,11 @@ html{
   }
 }
 
-@media screen and (min-widht: 361px, max-width: 600px) {
-  .box1 {
-    width: 50%;
-    order:-1;
+/* @media screen and (min-widht: 361px, max-width: 600px) {
+  .box2{
+    height: 50px;
   }
-  .box2 {
-    order:1;
-  }
-  main img {
-      padding-left: 0;
-    }
-}
+} */
 /* Header */
 header{
   background-color: #bebebe;
@@ -61,10 +54,8 @@ main{
 }
 main img{
   box-shadow: 5px 5px 15px #000000;
-  padding-left: 5px;
-  height:300px;
+  height:150px;
 }
-
 
 ul.pattern{
   list-style-type: none;
@@ -83,10 +74,7 @@ li p{
 .color3{
   background-color: #7d97ad;
 }
-.box2 {
-  height: 400px;
-  max-width: 100%;
-}
+
 /* Section MyWork */
 section.mywork{
   font-family: 'Exo 2', sans-serif;
