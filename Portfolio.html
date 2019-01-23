@@ -1,59 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css?family=Exo+2:600|Montserrat+Alternates:300" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <title>MyPortfolio</title>
+	<meta charset="UTF-8">
+	<meta content="ie=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<link href="https://fonts.googleapis.com/css?family=Exo+2:600|Montserrat+Alternates:300" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+	<title>MyPortfolio</title>
 </head>
 <body>
-  <header>
-    <p><img class="logo" src="images/logo.png" alt="Logo"></p>
-    <div class="name">
-    <h1>ELMAR BAYER</h1>
-    <h2>PHOTOGRAPHER</h2>
-    </div>
-  </header>
-  <main class="mycontent">
-  <div class="container">
-    <div class="box1">
-    <ul class="pattern">
-      <li><p class="color1"></p>#O2b3e4</li>
-      <li><p class="color2"></p>#2d3c49</li>
-      <li><p class="color3"></p>#7d97ad</li>
-    </ul>
-    </div>
-    <div class="box2">
-      <img srcset="images/Horses1200px.jpg 1200w,
-                   images/Horses800px.jpg 800w,
-                   images/Horses360x.jpg 360w"
-          sizes="(max-width: 360px) 340px,
-                 (max-width: 800px) 600px,
-                  9src00px"
-          src="images/Horses1200px.jpg" alt="Horses in the Snow">
-    </div>
-  </div>
-  <section class="mywork">
-    <h3>My recent Work</h3>
-    <ul class="featured">
-      <li><figure><img class="square" src="images/GlassOfCorn.jpg" alt="GlassOfCorn">
-      <figcaption>Glass of Corn<p>www.instagram.com/p/Bsv1NWBF1s8/</p> </figcaption></figure></li>
-      <li><figure><img class="square" src="images/Onion.jpg" alt="Onion">
-      <figcaption>Onion<p>www.instagram.com/p/BsqfQ_7F4E/</p></figcaption></figure></li>
-      <li><figure><img class="square" src="images/Bokeh.jpg" alt="Bokeh">
-      <figcaption>Bokeh<p>www.instagram.com/p/BsoIuXOlFly/</p></figcaption></figure></li>
-    </ul>
-  </section>
-  </main>
-  <footer>
-   <p><a href="http://jigsaw.w3.org/css-validator/check/referer">
-     <img style="border:0;width:88px;height:31px"
-         src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
-         alt="CSS ist valide!" /></p>
-     <p><a href="https://twitter.com/EMBYE?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @EMBYE</a><script async src="https://platform.twitter.com/widgets.js" ></script>
-     </p>
-  </footer>
+	<header>
+		<p><img alt="Logo" class="logo" src="images/logo.png"></p>
+		<div class="name">
+			<h1>ELMAR BAYER</h1>
+			<h2>PHOTOGRAPHER</h2>
+		</div>
+	</header>
+	<main class="mycontent">
+		<div class="container">
+			<div class="box1">
+				<ul class="pattern">
+					<li>
+						<p class="color1"></p>#O2b3e4
+					</li>
+					<li>
+						<p class="color2"></p>#2d3c49
+					</li>
+					<li>
+						<p class="color3"></p>#7d97ad
+					</li>
+				</ul>
+			</div>
+			<div class="box2"><img alt="Horses in the Snow" sizes="(max-width: 360px) 340px, (max-width: 800px) 600px, 900px" src="images/Horses1200px.jpg" srcset=
+			"images/Horses1200px.jpg 1200w, images/Horses800px.jpg 800w, images/Horses360x.jpg 360w"></div>
+		</div>
+		<section class="mywork">
+			<h3>My recent Work</h3>
+			<ul class="featured">
+				<li>
+					<figure>
+						<img alt="GlassOfCorn" class="square" src="images/GlassOfCorn.jpg">
+						<figcaption>
+							Glass of Corn
+							<p>www.instagram.com/p/Bsv1NWBF1s8/</p>
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<img alt="Onion" class="square" src="images/Onion.jpg">
+						<figcaption>
+							Onion
+							<p>www.instagram.com/p/BsqfQ_7F4E/</p>
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<img alt="Bokeh" class="square" src="images/Bokeh.jpg">
+						<figcaption>
+							Bokeh
+							<p>www.instagram.com/p/BsoIuXOlFly/</p>
+						</figcaption>
+					</figure>
+				</li>
+			</ul>
+		</section>
+	</main>
+	<footer>
+		<p><a href="http://jigsaw.w3.org/css-validator/check/referer"><img alt="CSS ist valide!" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" style=
+		"border:0;width:88px;height:31px"></a>
+		</p>
+		<p><a class="twitter-follow-button" data-show-count="false" href="https://twitter.com/EMBYE?ref_src=twsrc%5Etfw">Follow @EMBYE</a>
+		<script async src="https://platform.twitter.com/widgets.js">
+		</script></p>
+	</footer>
 </body>
 </html>
