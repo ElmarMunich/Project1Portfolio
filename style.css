@@ -26,11 +26,7 @@ html{
   }
 }
 
-/* @media screen and (min-widht: 361px, max-width: 600px) {
-  .box2{
-    height: 50px;
-  }
-} */
+
 /* Header */
 header{
   background-color: #bebebe;
@@ -54,7 +50,6 @@ main{
 }
 main img{
   box-shadow: 5px 5px 15px #000000;
-  height:150px;
 }
 
 ul.pattern{
