@@ -99,6 +99,10 @@ figcaption p {
 }
 /* Footer */
 footer{
-  padding: 20px 20px 0 20px;
+  padding: 10px 20px 0 20px;
   background-color: #bebebe;
+  display: flex;
+}
+footer p{
+  padding:0 50px 0 0;
 }
